@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1607888125977" ID="ID_1111700057" MODIFIED="1607888576138" TEXT="Functional Requirements">
 <node CREATED="1607889805944" ID="ID_333862331" MODIFIED="1607889817745" POSITION="right" TEXT="1. client side">
-<node CREATED="1607889819446" ID="ID_1408814252" MODIFIED="1607890860048" TEXT="1.1 control panel">
+<node CREATED="1607889819446" FOLDED="true" ID="ID_1408814252" MODIFIED="1607896440895" TEXT="1.1 Control Panel shall occupy bottom ~2cm of screen">
 <node CREATED="1607889824804" ID="ID_1144532847" MODIFIED="1607889831174" TEXT="1.1.1 bills button">
 <node CREATED="1607889831178" ID="ID_1389117676" MODIFIED="1607895147460" TEXT="1.1.1.1 bills button shall occupy left 1/3 of control panel"/>
 <node CREATED="1607889993381" ID="ID_1483981848" MODIFIED="1607890035938" TEXT="1.1.1.2 the graphic shall be a drawing of a document"/>
@@ -25,8 +25,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1607890186982" ID="ID_1097690422" MODIFIED="1607890496439" TEXT="1.2 bills interface">
-<node CREATED="1607890496443" ID="ID_1007733541" MODIFIED="1607890502839" TEXT="1.2.1 bill feed page">
+<node CREATED="1607890186982" ID="ID_1097690422" MODIFIED="1607896422884" TEXT="1.2 Bills Interface">
+<node CREATED="1607890496443" FOLDED="true" ID="ID_1007733541" MODIFIED="1607895954469">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.2.1 Bill Feed Page
+    </p>
+    <p>
+      &quot;home&quot; page that appears after login
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1607890502842" ID="ID_1975689625" MODIFIED="1607890507799" TEXT="1.2.1.1 cards">
 <node CREATED="1607890507802" ID="ID_582132696" MODIFIED="1607890529539" TEXT="1.2.1.1.1 bill name at top of card"/>
 <node CREATED="1607890532582" ID="ID_33597705" MODIFIED="1607890550595" TEXT="1.2.1.1.2 short description shall appear below bill name"/>
@@ -47,7 +61,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607891027736" ID="ID_1140242369" MODIFIED="1607891033668" TEXT="1.2.2 bill details page">
+<node CREATED="1607891027736" FOLDED="true" ID="ID_1140242369" MODIFIED="1607895662701" TEXT="1.2.2 Bill Details Page">
 <node CREATED="1607891034808" ID="ID_781604592" MODIFIED="1607891058356" TEXT="1.2.2.1 bill title shall appear at the top of the page"/>
 <node CREATED="1607891058840" ID="ID_923272176" MODIFIED="1607891075844" TEXT="1.2.2.2 longer bill description shall appear below the title"/>
 <node CREATED="1607891077288" ID="ID_1728513573" MODIFIED="1607891120964" TEXT="1.2.2.3 &quot;bill status&quot; text shall appear below longer bill description"/>
@@ -60,8 +74,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1607891505305" FOLDED="true" ID="ID_316731000" MODIFIED="1607895273381" TEXT="1.3 mp search page">
-<node CREATED="1607891553369" ID="ID_1887862229" MODIFIED="1607891560934" TEXT="1.3.1 local mp info box"/>
+<node CREATED="1607891505305" FOLDED="true" ID="ID_316731000" MODIFIED="1607896425624" TEXT="1.3 MP Search Page">
+<node CREATED="1607891553369" FOLDED="true" ID="ID_1887862229" MODIFIED="1607896343639" TEXT="1.3.1 local mp info box">
+<node CREATED="1607896209160" ID="ID_1770277146" MODIFIED="1607896340516" TEXT="local MP name shall appear top left depending on local variable userConstituency (1.5.2.2.1 and/or)"/>
+</node>
 <node CREATED="1607891561227" ID="ID_1714283843" MODIFIED="1607892245754" TEXT="1.3.2 search boxes shall appear below local mp info box">
 <icon BUILTIN="xmag"/>
 <icon BUILTIN="messagebox_warning"/>
@@ -92,15 +108,52 @@
 </node>
 </node>
 </node>
-<node CREATED="1607895274741" ID="ID_289602725" MODIFIED="1607895311969" TEXT="1.4 selected mp interface (Selected MP History page, Selected MP DM page)">
-<node CREATED="1607895316309" ID="ID_1915670476" MODIFIED="1607895337633" TEXT="1.4.1 Selected MP History Page">
+<node CREATED="1607895274741" ID="ID_289602725" MODIFIED="1607896414244" TEXT="1.4 Selected MP Interface">
+<node CREATED="1607895316309" FOLDED="true" ID="ID_1915670476" MODIFIED="1607895674556" TEXT="1.4.1 Selected MP History Page">
 <node CREATED="1607895338598" ID="ID_252788082" MODIFIED="1607895362178" TEXT="1.4.1.1 selected mp info box shall appear at the top of the page"/>
 <node CREATED="1607895366565" ID="ID_1930742941" MODIFIED="1607895386833" TEXT="1.4.1.2 search boxes shall appear below MP info box"/>
 <node CREATED="1607895405557" ID="ID_779043411" MODIFIED="1607895416962" TEXT="1.4.1.3 results shall appear below search boxes"/>
 </node>
-<node CREATED="1607895422501" ID="ID_917852840" MODIFIED="1607895506148" TEXT="1.4.2 Selected MP DM Page">
+<node CREATED="1607895422501" FOLDED="true" ID="ID_917852840" MODIFIED="1607895880983" TEXT="1.4.2 Selected MP DM Page">
 <icon BUILTIN="stop-sign"/>
+<node CREATED="1607895783638" ID="ID_1046760824" MODIFIED="1607895878901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is a secondary feature and will not be implemented for the first milestone
+    </p>
+    <ol>
+      <li>
+        requires MP participation from multiple constituencies
+      </li>
+      <li>
+        MP will be overwhelmed if they agree to participate
+      </li>
+      <li>
+        MP may receive hateful/useless messages that are difficult or impossible to filter
+      </li>
+      <li>
+        MP will likely not take action based on messages from users of an app
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1607895582437" FOLDED="true" ID="ID_712218429" MODIFIED="1607896400095" TEXT="1.5 Preferences Page">
+<node CREATED="1607895689176" ID="ID_560983521" MODIFIED="1607895704802" TEXT="1.5.1 &quot;Preferences&quot; title shall appear at the top of the page"/>
+<node CREATED="1607895705286" ID="ID_431996279" MODIFIED="1607896396404" TEXT="1.5.2 Postcode Section shall appear below the &quot;Preferences&quot; title">
+<node CREATED="1607895720374" ID="ID_1723987520" MODIFIED="1607896105364" TEXT="1.5.2.1 title &quot;Postcode&quot; shall appear to the left"/>
+<node CREATED="1607896112391" ID="ID_869794649" MODIFIED="1607896130180" TEXT="1.5.2.2 text box shall appear to the right of the title &quot;Postcode&quot;">
+<node CREATED="1607896146999" ID="ID_1025869394" MODIFIED="1607896315700" TEXT="1.5.2.2.1 on input, set client side userConstituency variable"/>
+</node>
+</node>
+<node CREATED="1607896369096" ID="ID_1395480176" MODIFIED="1607896388420" TEXT="1.5.3 Notifications Settings Section"/>
 </node>
 </node>
 </node>
