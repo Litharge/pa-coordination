@@ -74,7 +74,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607891505305" FOLDED="true" ID="ID_316731000" MODIFIED="1607896425624" TEXT="1.3 MP Search Page">
+<node CREATED="1607891505305" FOLDED="true" ID="ID_316731000" MODIFIED="1607896697320" TEXT="1.3 MP Search Page">
 <node CREATED="1607891553369" FOLDED="true" ID="ID_1887862229" MODIFIED="1607896343639" TEXT="1.3.1 local mp info box">
 <node CREATED="1607896209160" ID="ID_1770277146" MODIFIED="1607896340516" TEXT="local MP name shall appear top left depending on local variable userConstituency (1.5.2.2.1 and/or)"/>
 </node>
@@ -108,7 +108,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607895274741" ID="ID_289602725" MODIFIED="1607896414244" TEXT="1.4 Selected MP Interface">
+<node CREATED="1607895274741" ID="ID_289602725" MODIFIED="1607896700768" TEXT="1.4 Selected MP Interface">
 <node CREATED="1607895316309" FOLDED="true" ID="ID_1915670476" MODIFIED="1607895674556" TEXT="1.4.1 Selected MP History Page">
 <node CREATED="1607895338598" ID="ID_252788082" MODIFIED="1607895362178" TEXT="1.4.1.1 selected mp info box shall appear at the top of the page"/>
 <node CREATED="1607895366565" ID="ID_1930742941" MODIFIED="1607895386833" TEXT="1.4.1.2 search boxes shall appear below MP info box"/>
@@ -145,7 +145,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607895582437" FOLDED="true" ID="ID_712218429" MODIFIED="1607896400095" TEXT="1.5 Preferences Page">
+<node CREATED="1607895582437" FOLDED="true" ID="ID_712218429" MODIFIED="1607896702232" TEXT="1.5 Preferences Page">
 <node CREATED="1607895689176" ID="ID_560983521" MODIFIED="1607895704802" TEXT="1.5.1 &quot;Preferences&quot; title shall appear at the top of the page"/>
 <node CREATED="1607895705286" ID="ID_431996279" MODIFIED="1607896396404" TEXT="1.5.2 Postcode Section shall appear below the &quot;Preferences&quot; title">
 <node CREATED="1607895720374" ID="ID_1723987520" MODIFIED="1607896105364" TEXT="1.5.2.1 title &quot;Postcode&quot; shall appear to the left"/>
@@ -154,6 +154,45 @@
 </node>
 </node>
 <node CREATED="1607896369096" ID="ID_1395480176" MODIFIED="1607896388420" TEXT="1.5.3 Notifications Settings Section"/>
+</node>
+<node CREATED="1607896491272" ID="ID_104417048" MODIFIED="1607896503621" TEXT="1.6 Accounts Interface">
+<node CREATED="1607896522169" ID="ID_1257197525" MODIFIED="1607896535061" TEXT="1.6.1 Login Interface"/>
+<node CREATED="1607896535352" ID="ID_1592389026" MODIFIED="1607896542661" TEXT="1.6.2 Sign Up Interface">
+<node CREATED="1607897020682" ID="ID_170183427" MODIFIED="1607897032807" TEXT="1.6.2.1 User Email Page">
+<node CREATED="1607897245291" ID="ID_1899235563" MODIFIED="1607898090506" TEXT="1.6.2.1.1 textbox displayed centre of page">
+<node CREATED="1607897279757" ID="ID_1173248019" MODIFIED="1607897293064" TEXT="1.6.2.1.1.1 accept user text"/>
+<node CREATED="1607897293787" ID="ID_47034053" MODIFIED="1607897319303" TEXT="1.6.2.1.1.2 on pressing enter transfer email to server"/>
+<node CREATED="1607897404811" ID="ID_292329793" MODIFIED="1607898033162" TEXT="1.6.2.1.1.3 if EMAILTAKEN error received from server, clear box, accept again (1.6.2.1.1.1)"/>
+</node>
+<node CREATED="1607897331597" ID="ID_1005378580" MODIFIED="1607897457704" TEXT="1.6.2.1.2 If EMAILTAKEN error received from server display &quot;email taken&quot; text in red above email text box"/>
+<node CREATED="1607897653804" ID="ID_1782905491" MODIFIED="1607897682217" TEXT="1.6.2.1.3 if success received from server go to User Username Page"/>
+</node>
+<node CREATED="1607897038618" ID="ID_1729709490" MODIFIED="1607897047751" TEXT="1.6.2.2 User Username Page">
+<node CREATED="1607897732812" ID="ID_108365215" MODIFIED="1607898086474" TEXT="1.6.2.2.1 textbox displayed centre of page">
+<node CREATED="1607897754176" ID="ID_809614491" MODIFIED="1607897768345" TEXT="1.6.2.2.1.1 accept user text"/>
+<node CREATED="1607897768845" ID="ID_1606052373" MODIFIED="1607897789022" TEXT="1.6.2.2.1.2 on pressing enter transfer username to server"/>
+<node CREATED="1607897976557" ID="ID_359234044" MODIFIED="1607898015338" TEXT="1.6.2.1.1.3 if USERNAMETAKEN error received from server, clear box, accept again (1.6.2.2.1.1)"/>
+</node>
+<node CREATED="1607898043262" ID="ID_1957549396" MODIFIED="1607898079034" TEXT="1.6.2.2.2 if USERNAMETAKEN error received from server display &quot;username taken&quot; text in red above email textbox"/>
+<node CREATED="1607898111278" ID="ID_1370382833" MODIFIED="1607898135098" TEXT="1.6.2.2.3 if success received from server go to User Password Page"/>
+</node>
+<node CREATED="1607897038618" ID="ID_118908833" MODIFIED="1607898424266" TEXT="1.6.2.3 User Constituency Page">
+<node CREATED="1607897732812" ID="ID_1444603300" MODIFIED="1607898530587" STYLE="fork" TEXT="1.6.2.3.1 textbox displayed centre of page">
+<node CREATED="1607897754176" ID="ID_1734745213" MODIFIED="1607899516656" TEXT="1.6.2.3.1.1 accept user text"/>
+<node CREATED="1607897768845" ID="ID_1606227170" MODIFIED="1607898510434" TEXT="1.6.2.2.1.2 on pressing enter transfer postcode to server"/>
+<node CREATED="1607897976557" ID="ID_1142569103" MODIFIED="1607898510434" TEXT="1.6.2.1.1.3 if INVALIDPOSTCODE error received from server, clear box, accept again (1.6.2.2.1.1)"/>
+</node>
+<node CREATED="1607898043262" ID="ID_1663873864" MODIFIED="1607898079034" TEXT="1.6.2.2.2 if USERNAMETAKEN error received from server display &quot;username taken&quot; text in red above email textbox"/>
+<node CREATED="1607898111278" ID="ID_5411723" MODIFIED="1607898135098" TEXT="1.6.2.2.3 if success received from server go to User Password Page"/>
+</node>
+<node CREATED="1607897048458" ID="ID_262816662" MODIFIED="1607898143834" TEXT="1.6.2.3 User Password Page">
+<node CREATED="1607897245291" ID="ID_689509135" MODIFIED="1607898172394" TEXT="1.6.2.3.1 textbox displayed centre of page">
+<node CREATED="1607897279757" ID="ID_1755946777" MODIFIED="1607898178858" TEXT="1.6.2.3.1.1 accept user text"/>
+<node CREATED="1607897293787" ID="ID_1401220753" MODIFIED="1607898283467" TEXT="1.6.2.3.1.2 on pressing enter transfer password to server"/>
+</node>
+<node CREATED="1607897653804" ID="ID_116057669" MODIFIED="1607898348955" TEXT="1.6.2.3.2 after password transferred, go to Bill Feed Page (1.2.1)"/>
+</node>
+</node>
 </node>
 </node>
 </node>
