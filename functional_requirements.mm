@@ -4,7 +4,7 @@
 <node CREATED="1607889805944" ID="ID_333862331" MODIFIED="1607889817745" POSITION="right" TEXT="1. client side">
 <node CREATED="1607889819446" ID="ID_1408814252" MODIFIED="1607890860048" TEXT="1.1 control panel">
 <node CREATED="1607889824804" ID="ID_1144532847" MODIFIED="1607889831174" TEXT="1.1.1 bills button">
-<node CREATED="1607889831178" ID="ID_1389117676" MODIFIED="1607891497174" TEXT="1.1.1.1 bills button shall occupy left 1.3 of control panel"/>
+<node CREATED="1607889831178" ID="ID_1389117676" MODIFIED="1607895147460" TEXT="1.1.1.1 bills button shall occupy left 1/3 of control panel"/>
 <node CREATED="1607889993381" ID="ID_1483981848" MODIFIED="1607890035938" TEXT="1.1.1.2 the graphic shall be a drawing of a document"/>
 <node CREATED="1607889862325" ID="ID_815755414" MODIFIED="1607890107124" TEXT="1.1.1.3 when clicked the bills button shall show the bill search page">
 <icon BUILTIN="password"/>
@@ -38,7 +38,7 @@
 <node CREATED="1607890597639" ID="ID_1175379026" MODIFIED="1607890650435" TEXT="1.2.1.2 card organisation">
 <node CREATED="1607890670055" ID="ID_560372424" MODIFIED="1607890676707" TEXT="1.2.1.2.1 each section">
 <node CREATED="1607890677639" ID="ID_1044980659" MODIFIED="1607890694675" TEXT="1.2.1.2.1.1 title of section shall appear at the top of each section"/>
-<node CREATED="1607890695495" ID="ID_1225602991" MODIFIED="1607890997251" TEXT="1.2.1.2.1.2 small cards (see 1.2.1.1) shall appear below the title of the section, according to the title of the section (see 1.2.1.2.2)"/>
+<node CREATED="1607890695495" ID="ID_1225602991" MODIFIED="1607895121963" TEXT="1.2.1.2.1.2 small cards (1.2.1.1) shall appear below the title of the section, according to the title of the section (1.2.1.2.2)"/>
 <node CREATED="1607890928519" ID="ID_1075130625" MODIFIED="1607890949651" TEXT="1.2.1.2.1.3 swiping the section left/right shall progress to the previous/next card"/>
 </node>
 <node CREATED="1607890957160" ID="ID_621406590" MODIFIED="1607890962664" TEXT="1.2.1.2.2 sections">
@@ -60,12 +60,26 @@
 </node>
 </node>
 </node>
-<node CREATED="1607891505305" ID="ID_316731000" MODIFIED="1607891509557" TEXT="1.3 mp search page">
+<node CREATED="1607891505305" FOLDED="true" ID="ID_316731000" MODIFIED="1607895273381" TEXT="1.3 mp search page">
 <node CREATED="1607891553369" ID="ID_1887862229" MODIFIED="1607891560934" TEXT="1.3.1 local mp info box"/>
 <node CREATED="1607891561227" ID="ID_1714283843" MODIFIED="1607892245754" TEXT="1.3.2 search boxes shall appear below local mp info box">
 <icon BUILTIN="xmag"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1607891572107" ID="ID_1151529740" MODIFIED="1607892238312" TEXT="1.3.2.1 &quot;search by&quot; dialogue box shall appear on the left"/>
+<node CREATED="1607891572107" ID="ID_1151529740" MODIFIED="1607893929853" TEXT="1.3.2.1 &quot;search by&quot; box shall appear on the left">
+<node CREATED="1607893930704" ID="ID_880034457" MODIFIED="1607894510128" TEXT="1.3.2.1.1 clicking the box shall display a dialogue box with a range of options">
+<icon BUILTIN="info"/>
+<node CREATED="1607894243298" ID="ID_1550245519" MODIFIED="1607894257071" TEXT="1.3.2.1.1.1 dialogue option &quot;party&quot;"/>
+<node CREATED="1607894261633" ID="ID_499317980" MODIFIED="1607894270317" TEXT="1.3.2.1.1.2 dialogue option &quot;name&quot;"/>
+</node>
+</node>
+<node CREATED="1607894278433" ID="ID_1390842197" MODIFIED="1607894426654" TEXT="1.3.2.2 text entry/clickable box shall appear to the right of &quot;search by&quot; box. On clicking the box, what happens depends on what was entered in &quot;search by&quot; dialogue (1.3.2.1.1)">
+<node CREATED="1607894309841" ID="ID_1355711906" MODIFIED="1607894516936" TEXT="1.3.2.2.1 if user entered &quot;party&quot; display a dialogue box with all available parties">
+<icon BUILTIN="info"/>
+</node>
+<node CREATED="1607894463458" ID="ID_1660211082" MODIFIED="1607894518920" TEXT="1.3.2.2.2 if user entered &quot;name&quot;, allow text entry">
+<icon BUILTIN="info"/>
+</node>
+</node>
 </node>
 <node CREATED="1607892047869" ID="ID_706271241" MODIFIED="1607892065448" TEXT="1.3.3 MP results shall appear below search boxes">
 <node CREATED="1607892081115" ID="ID_1120607352" MODIFIED="1607892089400" TEXT="1.3.3.1 result cards">
@@ -76,6 +90,16 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1607895274741" ID="ID_289602725" MODIFIED="1607895311969" TEXT="1.4 selected mp interface (Selected MP History page, Selected MP DM page)">
+<node CREATED="1607895316309" ID="ID_1915670476" MODIFIED="1607895337633" TEXT="1.4.1 Selected MP History Page">
+<node CREATED="1607895338598" ID="ID_252788082" MODIFIED="1607895362178" TEXT="1.4.1.1 selected mp info box shall appear at the top of the page"/>
+<node CREATED="1607895366565" ID="ID_1930742941" MODIFIED="1607895386833" TEXT="1.4.1.2 search boxes shall appear below MP info box"/>
+<node CREATED="1607895405557" ID="ID_779043411" MODIFIED="1607895416962" TEXT="1.4.1.3 results shall appear below search boxes"/>
+</node>
+<node CREATED="1607895422501" ID="ID_917852840" MODIFIED="1607895506148" TEXT="1.4.2 Selected MP DM Page">
+<icon BUILTIN="stop-sign"/>
 </node>
 </node>
 </node>
