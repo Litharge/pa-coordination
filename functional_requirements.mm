@@ -259,7 +259,23 @@
 </node>
 </node>
 </node>
-<node CREATED="1607902197165" ID="ID_1145220626" MODIFIED="1607902212745" TEXT="2.2 Client response script"/>
+<node CREATED="1607902197165" ID="ID_1145220626" MODIFIED="1607902212745" TEXT="2.2 Client response script">
+<node CREATED="1607903686016" ID="ID_1175044371" MODIFIED="1607903691691" TEXT="2.2.1 Accounts data">
+<node CREATED="1607904001985" ID="ID_515822062" MODIFIED="1607904318045" TEXT="2.2.1.1 Respond to email sent by client">
+<node CREATED="1607904319648" ID="ID_201437415" MODIFIED="1607904342253" TEXT="2.2.1.1.1 search database for email"/>
+<node CREATED="1607904346338" ID="ID_69679640" MODIFIED="1607906160130" TEXT="2.2.1.1.2 if email not found respond SUCCESS else respond EMAILTAKEN and listen again"/>
+<node CREATED="1607906225397" ID="ID_571059921" MODIFIED="1607906240706" TEXT="2.2.1.1.3 store email in database"/>
+</node>
+<node CREATED="1607906019285" ID="ID_550084342" MODIFIED="1607906030834" TEXT="2.2.1.2 respond to username sent by client">
+<node CREATED="1607906032133" ID="ID_50405132" MODIFIED="1607906044177" TEXT="2.2.1.2.1 search databse for username"/>
+<node CREATED="1607906045846" ID="ID_416936223" MODIFIED="1607906155585" TEXT="2.2.1.2.2 if username not found respond SUCCESS else respond USERNAMETAKEN and listen again"/>
+<node CREATED="1607906184533" ID="ID_922577251" MODIFIED="1607906212033" TEXT="2.2.1.2.3 store username associated with email in database"/>
+</node>
+<node CREATED="1607906119365" ID="ID_1387242062" MODIFIED="1607906130993" TEXT="2.2.1.3 respond to password sent by client">
+<node CREATED="1607906132453" ID="ID_1486030079" MODIFIED="1607906657827" TEXT="2.2.1.3.1 store password and respond SUCCESS"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
