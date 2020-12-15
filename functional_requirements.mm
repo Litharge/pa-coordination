@@ -5,10 +5,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1607889805944" ID="ID_333862331" MODIFIED="1607969883633" POSITION="right" STYLE="fork" TEXT="1. client side">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1607889819446" ID="ID_1408814252" MODIFIED="1607972812853" STYLE="fork" TEXT="1.1 Control Panel shall occupy bottom ~2cm of screen">
+<node CREATED="1607889819446" FOLDED="true" ID="ID_1408814252" MODIFIED="1608047649175" STYLE="fork" TEXT="1.1 Control Panel shall occupy bottom ~2cm of screen">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1607889824804" FOLDED="true" ID="ID_1144532847" MODIFIED="1607974320079" TEXT="1.1.1 bills button">
+<node CREATED="1607889824804" ID="ID_1144532847" MODIFIED="1608043177772" TEXT="1.1.1 bills button">
 <icon BUILTIN="full-1"/>
 <node CREATED="1607889831178" ID="ID_1389117676" MODIFIED="1607954688371" TEXT="1.1.1.1 bills button shall occupy left 1/3 of control panel"/>
 <node CREATED="1607889993381" ID="ID_1483981848" MODIFIED="1607954688371" TEXT="1.1.1.2 the graphic shall be a drawing of a document"/>
@@ -16,7 +16,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1607889884069" FOLDED="true" ID="ID_324079009" MODIFIED="1607974319183" TEXT="1.1.2 mp search button">
+<node CREATED="1607889884069" ID="ID_324079009" MODIFIED="1608043178812" TEXT="1.1.2 mp search button">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607889896757" ID="ID_1555027702" MODIFIED="1607954688371" TEXT="1.1.2.1 mp search button shall occupy centre 1/3 of control panel"/>
 <node CREATED="1607890005637" ID="ID_1676445593" MODIFIED="1607954688371" TEXT="1.1.2.2 the graphic shall be a drawing of a persons head and shoulders"/>
@@ -24,7 +24,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1607890117910" FOLDED="true" ID="ID_1938244959" MODIFIED="1607974320775" TEXT="1.1.3 preferences button">
+<node CREATED="1607890117910" ID="ID_1938244959" MODIFIED="1608043179548" TEXT="1.1.3 preferences button">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607890124602" ID="ID_1005049821" MODIFIED="1607954688371" TEXT="1.1.3.1 preferences button shall occupy right 1/3 of control panel"/>
 <node CREATED="1607890141829" ID="ID_385737412" MODIFIED="1607954688371" TEXT="1.1.3.2 graphic shall be a cogwheel"/>
@@ -33,10 +33,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1607890186982" ID="ID_1097690422" MODIFIED="1607971995952" STYLE="fork" TEXT="1.2 Bills Interface">
+<node CREATED="1607890186982" ID="ID_1097690422" MODIFIED="1608043193481" STYLE="fork" TEXT="1.2 Bills Interface">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1607890496443" FOLDED="true" ID="ID_1007733541" MODIFIED="1607974323655" STYLE="fork">
+<node CREATED="1607890496443" FOLDED="true" ID="ID_1007733541" MODIFIED="1608043197101" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -74,7 +74,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607891027736" FOLDED="true" ID="ID_1140242369" MODIFIED="1607974326127" STYLE="fork" TEXT="1.2.2 Bill Details Page">
+<node CREATED="1607891027736" ID="ID_1140242369" MODIFIED="1608043195959" STYLE="fork" TEXT="1.2.2 Bill Details Page">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1607891034808" ID="ID_781604592" MODIFIED="1607972341824" TEXT="1.2.2.1 bill title shall appear at the top of the page">
@@ -92,7 +92,7 @@
 <node CREATED="1607891163082" ID="ID_951571084" MODIFIED="1607973049481" TEXT="1.2.2.5 bill status graphic shall appear below bill status">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1607891220136" ID="ID_1362501188" MODIFIED="1607972732005" TEXT="1.2.2.6 aye/no boxes shall appear below bill status graphic, up to two of these may appear (2nd and 3rd reading votes)">
+<node CREATED="1607891220136" FOLDED="true" ID="ID_1362501188" MODIFIED="1608047651758" TEXT="1.2.2.6 aye/no boxes shall appear below bill status graphic, up to two of these may appear (2nd and 3rd reading votes)">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607891239834" ID="ID_1961008119" MODIFIED="1607954688373" TEXT="1.2.2.6.1 two side by side boxes, left box titled &quot;noes&quot;, right box titled &quot;ayes&quot;"/>
 <node CREATED="1607891291672" ID="ID_1744950072" MODIFIED="1607954688373" TEXT="1.2.2.6.2 left box shall contain names of mps who voted no"/>
@@ -106,12 +106,12 @@
 <node CREATED="1607891505305" ID="ID_316731000" MODIFIED="1607973230496" STYLE="fork" TEXT="1.3 MP Search Page">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1607891553369" FOLDED="true" ID="ID_1887862229" MODIFIED="1607973687694" TEXT="1.3.1 local mp info box">
+<node CREATED="1607891553369" FOLDED="true" ID="ID_1887862229" MODIFIED="1608047644832" TEXT="1.3.1 local mp info box">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607896209160" ID="ID_1770277146" MODIFIED="1607973623722" TEXT="1.3.1.1 local MP name shall appear top left depending on local variable userConstituency (1.5.2.2.1 and/or 1.6.2.3.3)"/>
 <node CREATED="1607973629887" ID="ID_675055430" MODIFIED="1607973665115" TEXT="1.3.1.2 when clicked, go to Selected MP History Page (1.4.1) for local MP"/>
 </node>
-<node CREATED="1607891561227" FOLDED="true" ID="ID_1714283843" MODIFIED="1607973688854" TEXT="1.3.2 search boxes shall appear below local mp info box">
+<node CREATED="1607891561227" FOLDED="true" ID="ID_1714283843" MODIFIED="1608047646335" TEXT="1.3.2 search boxes shall appear below local mp info box">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607891572107" ID="ID_1151529740" MODIFIED="1607954688374" TEXT="1.3.2.1 &quot;search by&quot; box shall appear on the left">
 <node CREATED="1607893930704" ID="ID_880034457" MODIFIED="1607954688374" TEXT="1.3.2.1.1 clicking the box shall display a dialogue box with a range of options">
@@ -129,7 +129,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607892047869" FOLDED="true" ID="ID_706271241" MODIFIED="1607973689453" TEXT="1.3.3 MP results shall appear below search boxes">
+<node CREATED="1607892047869" FOLDED="true" ID="ID_706271241" MODIFIED="1608047647174" TEXT="1.3.3 MP results shall appear below search boxes">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607892081115" ID="ID_1120607352" MODIFIED="1607954688374" TEXT="1.3.3.1 each result card">
 <node CREATED="1607892094044" ID="ID_1813784971" MODIFIED="1607954688374" TEXT="1.3.3.1.1 the left 7th of the box shall be block colour corresponding to party of mp"/>
@@ -197,7 +197,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607895582437" ID="ID_712218429" MODIFIED="1607973347123" STYLE="fork" TEXT="1.5 Preferences Page">
+<node CREATED="1607895582437" FOLDED="true" ID="ID_712218429" MODIFIED="1608047636047" STYLE="fork" TEXT="1.5 Preferences Page">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1607895689176" ID="ID_560983521" MODIFIED="1607971751967" TEXT="1.5.1 &quot;Preferences&quot; title shall appear at the top of the page">
@@ -215,7 +215,7 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1607896491272" ID="ID_104417048" MODIFIED="1607971868587" STYLE="fork" TEXT="1.6 Accounts Interface">
+<node CREATED="1607896491272" FOLDED="true" ID="ID_104417048" MODIFIED="1608047638974" STYLE="fork" TEXT="1.6 Accounts Interface">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1607896522169" ID="ID_1257197525" MODIFIED="1607971861955" STYLE="fork" TEXT="1.6.1 Login Interface">
@@ -272,6 +272,12 @@
 <node CREATED="1607973927993" ID="ID_978307543" MODIFIED="1607973939543" TEXT="1.8 Notifications">
 <icon BUILTIN="full-3"/>
 </node>
+<node CREATED="1608047547999" ID="ID_691382726" MODIFIED="1608047555255" TEXT="1.9 Platform">
+<icon BUILTIN="full-1"/>
+<node CREATED="1608047556745" ID="ID_1322864288" MODIFIED="1608047597286" TEXT="1.9.1 Client is written using React Native so it is accessible from Android and ios">
+<icon BUILTIN="full-1"/>
+</node>
+</node>
 </node>
 <node CREATED="1607899642895" ID="ID_1036949907" MODIFIED="1607969883636" POSITION="left" STYLE="fork" TEXT="2. server side">
 <font NAME="SansSerif" SIZE="12"/>
@@ -280,7 +286,7 @@
 <node CREATED="1607899676865" ID="ID_368724935" MODIFIED="1607971481197" STYLE="fork" TEXT="2.1.1 Scraper Module">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1607899826127" FOLDED="true" ID="ID_1568604599" MODIFIED="1607972204184">
+<node CREATED="1607899826127" FOLDED="true" ID="ID_1568604599" MODIFIED="1608047661807">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -290,13 +296,12 @@
       2.1.1.1 contain a function get_bill_data()<br />that shall collect data on bills
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1607899973394" ID="ID_1513380687" MODIFIED="1607954688380" TEXT="2.1.1.1.1 input: string bill_activity_subset: [&quot;all&quot;]"/>
 <node CREATED="1607899983889" ID="ID_181630327" MODIFIED="1607954688380" TEXT="2.1.1.1.2 output: dataframe containing bill name, number, description columns with data on [bill_activity_subset] bills"/>
 </node>
-<node CREATED="1607899855151" FOLDED="true" ID="ID_1388038472" MODIFIED="1607972196199">
+<node CREATED="1607899855151" FOLDED="true" ID="ID_1388038472" MODIFIED="1608047662527">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -306,8 +311,7 @@
       2.1.1.2 contain functions that<br />shall collect data on MP voting
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1607900051232" ID="ID_862691268" MODIFIED="1607954688381" TEXT="2.1.1.2.1 get_mp_votes_on_bill() collect MP voting data on a specific bill">
 <node CREATED="1607900284578" ID="ID_883731292" MODIFIED="1607954688381" TEXT="2.1.1.2.1.1 input: string bill_name"/>
@@ -337,7 +341,7 @@
 <node CREATED="1607900433281" ID="ID_1065983970" MODIFIED="1607954688381" TEXT="2.1.1.2.2.2 output: dataframe with date column, bill name column, description column"/>
 </node>
 </node>
-<node CREATED="1607899886609" FOLDED="true" ID="ID_177759924" MODIFIED="1607972187911">
+<node CREATED="1607899886609" FOLDED="true" ID="ID_177759924" MODIFIED="1608047663399">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -347,13 +351,12 @@
       2.1.1.3 contain a function get_mp_contact_data()<br />that shall collect MP contact data
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1607900788405" ID="ID_873933429" MODIFIED="1607954688381" TEXT="2.1.1.3.1 input: MP name"/>
 <node CREATED="1607900799815" ID="ID_956376887" MODIFIED="1607954688381" TEXT="2.1.1.3.2 output: dataframe with location column, party column, email column, phone number column"/>
 </node>
-<node CREATED="1607899923505" FOLDED="true" ID="ID_855640347" MODIFIED="1607972180408">
+<node CREATED="1607899923505" FOLDED="true" ID="ID_855640347" MODIFIED="1608047681390">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -363,9 +366,8 @@
       2.1.1.4 contain a function get_constituency()<br />that shall determine constituency from postcode
     </p>
   </body>
-</html>
-</richcontent>
-<icon BUILTIN="full-1"/>
+</html></richcontent>
+<icon BUILTIN="full-2"/>
 <node CREATED="1607900888262" ID="ID_1701407751" MODIFIED="1607954688381" TEXT="2.1.1.4.1 input: postcode"/>
 <node CREATED="1607900917254" ID="ID_843364223" MODIFIED="1607954688381" TEXT="2.1.1.4.2 output: string containing constituency name"/>
 </node>
