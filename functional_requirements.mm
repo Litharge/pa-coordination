@@ -36,7 +36,7 @@
 <node CREATED="1607890186982" ID="ID_1097690422" MODIFIED="1608043193481" STYLE="fork" TEXT="1.2 Bills Interface">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1607890496443" FOLDED="true" ID="ID_1007733541" MODIFIED="1608043197101" STYLE="fork">
+<node CREATED="1607890496443" FOLDED="true" ID="ID_1007733541" MODIFIED="1608297049610" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -92,11 +92,12 @@
 <node CREATED="1607891163082" ID="ID_951571084" MODIFIED="1607973049481" TEXT="1.2.2.5 bill status graphic shall appear below bill status">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1607891220136" FOLDED="true" ID="ID_1362501188" MODIFIED="1608047651758" TEXT="1.2.2.6 aye/no boxes shall appear below bill status graphic, up to two of these may appear (2nd and 3rd reading votes)">
+<node CREATED="1607891220136" ID="ID_1362501188" MODIFIED="1608296819849" TEXT="1.2.2.6 aye/no boxes shall appear below bill status graphic, up to two of these may appear (2nd and 3rd reading votes)">
 <icon BUILTIN="full-2"/>
-<node CREATED="1607891239834" ID="ID_1961008119" MODIFIED="1607954688373" TEXT="1.2.2.6.1 two side by side boxes, left box titled &quot;noes&quot;, right box titled &quot;ayes&quot;"/>
-<node CREATED="1607891291672" ID="ID_1744950072" MODIFIED="1607954688373" TEXT="1.2.2.6.2 left box shall contain names of mps who voted no"/>
-<node CREATED="1607891309688" ID="ID_369266253" MODIFIED="1607954688373" TEXT="1.2.2.6.3 right box shall contain names of mps who voted aye"/>
+<node CREATED="1608296831305" ID="ID_50892737" MODIFIED="1608297027879" TEXT="1.2.2.6.1 at the top of the box shall be a bar, the left portion of the bar shall be red, proportion of which depends on no. votes. similar for right/green"/>
+<node CREATED="1607891239834" ID="ID_1961008119" MODIFIED="1608297034231" TEXT="1.2.2.6.2 two side by side boxes, left box titled &quot;noes&quot;, right box titled &quot;ayes&quot;"/>
+<node CREATED="1607891291672" ID="ID_1744950072" MODIFIED="1608297038855" TEXT="1.2.2.6.3 left box shall contain names of mps who voted no"/>
+<node CREATED="1607891309688" ID="ID_369266253" MODIFIED="1608297043175" TEXT="1.2.2.6.4 right box shall contain names of mps who voted aye"/>
 </node>
 <node CREATED="1607954316927" ID="ID_1470028456" MODIFIED="1607972735965" TEXT="1.2.2.7 user reactions shall be displayed below the aye/no boxes">
 <icon BUILTIN="full-2"/>
@@ -106,12 +107,12 @@
 <node CREATED="1607891505305" ID="ID_316731000" MODIFIED="1607973230496" STYLE="fork" TEXT="1.3 MP Search Page">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1607891553369" FOLDED="true" ID="ID_1887862229" MODIFIED="1608047644832" TEXT="1.3.1 local mp info box">
+<node CREATED="1607891553369" ID="ID_1887862229" MODIFIED="1608297069827" TEXT="1.3.1 local mp info box">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607896209160" ID="ID_1770277146" MODIFIED="1607973623722" TEXT="1.3.1.1 local MP name shall appear top left depending on local variable userConstituency (1.5.2.2.1 and/or 1.6.2.3.3)"/>
 <node CREATED="1607973629887" ID="ID_675055430" MODIFIED="1607973665115" TEXT="1.3.1.2 when clicked, go to Selected MP History Page (1.4.1) for local MP"/>
 </node>
-<node CREATED="1607891561227" FOLDED="true" ID="ID_1714283843" MODIFIED="1608047646335" TEXT="1.3.2 search boxes shall appear below local mp info box">
+<node CREATED="1607891561227" ID="ID_1714283843" MODIFIED="1608297072980" TEXT="1.3.2 search boxes shall appear below local mp info box">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607891572107" ID="ID_1151529740" MODIFIED="1607954688374" TEXT="1.3.2.1 &quot;search by&quot; box shall appear on the left">
 <node CREATED="1607893930704" ID="ID_880034457" MODIFIED="1607954688374" TEXT="1.3.2.1.1 clicking the box shall display a dialogue box with a range of options">
@@ -129,7 +130,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607892047869" FOLDED="true" ID="ID_706271241" MODIFIED="1608047647174" TEXT="1.3.3 MP results shall appear below search boxes">
+<node CREATED="1607892047869" ID="ID_706271241" MODIFIED="1608297074155" TEXT="1.3.3 MP results shall appear below search boxes">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607892081115" ID="ID_1120607352" MODIFIED="1607954688374" TEXT="1.3.3.1 each result card">
 <node CREATED="1607892094044" ID="ID_1813784971" MODIFIED="1607954688374" TEXT="1.3.3.1.1 the left 7th of the box shall be block colour corresponding to party of mp"/>
@@ -149,7 +150,7 @@
 <node CREATED="1607895274741" ID="ID_289602725" MODIFIED="1607971745198" STYLE="fork" TEXT="1.4 Selected MP Interface">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1607895316309" FOLDED="true" ID="ID_1915670476" MODIFIED="1607972022417" STYLE="fork" TEXT="1.4.1 Selected MP History Page">
+<node CREATED="1607895316309" ID="ID_1915670476" MODIFIED="1608297086170" STYLE="fork" TEXT="1.4.1 Selected MP History Page">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1607895338598" ID="ID_252788082" MODIFIED="1607954688375" TEXT="1.4.1.1 selected mp info box shall appear at the top of the page"/>
@@ -157,13 +158,26 @@
 <node CREATED="1607895405557" ID="ID_779043411" MODIFIED="1607954688375" TEXT="1.4.1.3 results shall appear below search boxes">
 <node CREATED="1607954623004" ID="ID_904995649" MODIFIED="1607954751465" TEXT="1.4.1.3.1 each result card">
 <icon BUILTIN="yes"/>
+<node CREATED="1608297189355" ID="ID_409570686" MODIFIED="1608297209735" TEXT="1.4.1.3.1.1 Left section">
+<node CREATED="1608297228059" ID="ID_494866130" MODIFIED="1608297248504" TEXT="1.4.1.3.1.1.1 Bill name shall appear at top of section"/>
+<node CREATED="1608297249819" ID="ID_52786033" MODIFIED="1608297269639" TEXT="1.4.1.3.1.1.2 Short bill description shall appear below bill name"/>
+<node CREATED="1608297270219" ID="ID_1441296518" MODIFIED="1608297291064" TEXT="1.4.1.3.1.1.3 Reactions shall appear below short description"/>
+</node>
+<node CREATED="1608297197787" ID="ID_1566372036" MODIFIED="1608297226067" TEXT="1.4.1.3.2.1 Right section">
+<node CREATED="1608297294843" ID="ID_114715728" MODIFIED="1608297335080" TEXT="1.4.1.3.2.1.1 Bill introduction date shall appear at top"/>
+<node CREATED="1608297335373" ID="ID_1792966503" MODIFIED="1608297355096" TEXT="1.4.1.3.2.1.2 Bill progression graphic shall appear below date"/>
+<node CREATED="1608297355612" ID="ID_964971278" MODIFIED="1608297409610" TEXT="1.4.1.3.2.1.3 MP vote on bill below progression graphic - discuss this should be more prominent">
+<icon BUILTIN="xmag"/>
+</node>
+</node>
 </node>
 <node CREATED="1607954634012" ID="ID_1963006052" MODIFIED="1607954753409" TEXT="1.4.1.3.2 result cards">
 <icon BUILTIN="yes"/>
+<node CREATED="1608297157595" ID="ID_1478166585" MODIFIED="1608297184280" TEXT="1.4.1.3.2.1 result cards shall appear centered, in a list vertically"/>
 </node>
 </node>
 </node>
-<node CREATED="1607895422501" FOLDED="true" ID="ID_917852840" MODIFIED="1607972021410" STYLE="fork" TEXT="1.4.2 Selected MP DM Page">
+<node CREATED="1607895422501" ID="ID_917852840" MODIFIED="1608297089101" STYLE="fork" TEXT="1.4.2 Selected MP DM Page">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1607895783638" ID="ID_1046760824" MODIFIED="1607954688375">
@@ -197,13 +211,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1607895582437" FOLDED="true" ID="ID_712218429" MODIFIED="1608047636047" STYLE="fork" TEXT="1.5 Preferences Page">
+<node CREATED="1607895582437" ID="ID_712218429" MODIFIED="1608297458452" STYLE="fork" TEXT="1.5 Preferences Page">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1607895689176" ID="ID_560983521" MODIFIED="1607971751967" TEXT="1.5.1 &quot;Preferences&quot; title shall appear at the top of the page">
 <icon BUILTIN="full-3"/>
 </node>
-<node CREATED="1607895705286" FOLDED="true" ID="ID_431996279" MODIFIED="1607974331342" TEXT="1.5.2 Postcode Section shall appear below the &quot;Preferences&quot; title">
+<node CREATED="1607895705286" ID="ID_431996279" MODIFIED="1608297461932" TEXT="1.5.2 Postcode Section shall appear below the &quot;Preferences&quot; title">
 <icon BUILTIN="full-3"/>
 <node CREATED="1607895720374" ID="ID_1723987520" MODIFIED="1607954688378" TEXT="1.5.2.1 title &quot;Postcode&quot; shall appear to the left"/>
 <node CREATED="1607896112391" ID="ID_869794649" MODIFIED="1607954688378" TEXT="1.5.2.2 text box shall appear to the right of the title &quot;Postcode&quot;">
@@ -215,17 +229,17 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1607896491272" FOLDED="true" ID="ID_104417048" MODIFIED="1608047638974" STYLE="fork" TEXT="1.6 Accounts Interface">
+<node CREATED="1607896491272" ID="ID_104417048" MODIFIED="1608297474771" STYLE="fork" TEXT="1.6 Accounts Interface">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1607896522169" ID="ID_1257197525" MODIFIED="1607971861955" STYLE="fork" TEXT="1.6.1 Login Interface">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1607896535352" FOLDED="true" ID="ID_1592389026" MODIFIED="1607974336838" STYLE="fork" TEXT="1.6.2 Sign Up Interface">
+<node CREATED="1607896535352" ID="ID_1592389026" MODIFIED="1608297479692" STYLE="fork" TEXT="1.6.2 Sign Up Interface">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1607897020682" FOLDED="true" ID="ID_170183427" MODIFIED="1607972108483" TEXT="1.6.2.1 User Email Page">
+<node CREATED="1607897020682" ID="ID_170183427" MODIFIED="1608297481117" TEXT="1.6.2.1 User Email Page">
 <icon BUILTIN="full-3"/>
 <node CREATED="1607897245291" ID="ID_1899235563" MODIFIED="1607954688378" TEXT="1.6.2.1.1 textbox displayed centre of page">
 <node CREATED="1607897279757" ID="ID_1173248019" MODIFIED="1607954688378" TEXT="1.6.2.1.1.1 accept user text"/>
@@ -235,7 +249,7 @@
 <node CREATED="1607897331597" ID="ID_1005378580" MODIFIED="1607954688378" TEXT="1.6.2.1.2 If EMAILTAKEN error received from server display &quot;email taken&quot; text in red above email text box"/>
 <node CREATED="1607897653804" ID="ID_1782905491" MODIFIED="1607954688379" TEXT="1.6.2.1.3 if success received from server go to User Username Page"/>
 </node>
-<node CREATED="1607897038618" FOLDED="true" ID="ID_1729709490" MODIFIED="1607972122243" TEXT="1.6.2.2 User Username Page">
+<node CREATED="1607897038618" ID="ID_1729709490" MODIFIED="1608297482892" TEXT="1.6.2.2 User Username Page">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607897732812" ID="ID_108365215" MODIFIED="1607954688379" TEXT="1.6.2.2.1 textbox displayed centre of page">
 <node CREATED="1607897754176" ID="ID_809614491" MODIFIED="1607954688379" TEXT="1.6.2.2.1.1 accept user text"/>
@@ -245,7 +259,7 @@
 <node CREATED="1607898043262" ID="ID_1957549396" MODIFIED="1607954688379" TEXT="1.6.2.2.2 if USERNAMETAKEN error received from server display &quot;username taken&quot; text in red above email textbox"/>
 <node CREATED="1607898111278" ID="ID_1370382833" MODIFIED="1607954688379" TEXT="1.6.2.2.3 if success received from server go to User Password Page"/>
 </node>
-<node CREATED="1607897038618" FOLDED="true" ID="ID_118908833" MODIFIED="1607974334663" TEXT="1.6.2.3 User Constituency Page">
+<node CREATED="1607897038618" ID="ID_118908833" MODIFIED="1608297484172" TEXT="1.6.2.3 User Constituency Page">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607897732812" ID="ID_1444603300" MODIFIED="1607954688379" STYLE="fork" TEXT="1.6.2.3.1 textbox displayed centre of page">
 <node CREATED="1607897754176" ID="ID_1734745213" MODIFIED="1607954688379" TEXT="1.6.2.3.1.1 accept user text"/>
@@ -255,7 +269,7 @@
 <node CREATED="1607973532126" ID="ID_1691178199" MODIFIED="1607973579306" TEXT="1.6.2.3.2 if postcode received from server, set local userConstituency variable"/>
 <node CREATED="1607898111278" ID="ID_5411723" MODIFIED="1607973608747" TEXT="1.6.2.3.3  go to User Password Page when userConstituency changed"/>
 </node>
-<node CREATED="1607897048458" FOLDED="true" ID="ID_262816662" MODIFIED="1607972130739" TEXT="1.6.2.3 User Password Page">
+<node CREATED="1607897048458" ID="ID_262816662" MODIFIED="1608297485219" TEXT="1.6.2.3 User Password Page">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607897245291" ID="ID_689509135" MODIFIED="1607954688380" TEXT="1.6.2.3.1 textbox displayed centre of page">
 <node CREATED="1607897279757" ID="ID_1755946777" MODIFIED="1607954688380" TEXT="1.6.2.3.1.1 accept user text"/>
@@ -281,12 +295,12 @@
 </node>
 <node CREATED="1607899642895" ID="ID_1036949907" MODIFIED="1607969883636" POSITION="left" STYLE="fork" TEXT="2. server side">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1607899664976" ID="ID_1711519179" MODIFIED="1607969897994" STYLE="fork" TEXT="2.1 Data Collector">
+<node CREATED="1607899664976" FOLDED="true" ID="ID_1711519179" MODIFIED="1608297559083" STYLE="fork" TEXT="2.1 Data Collector">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1607899676865" ID="ID_368724935" MODIFIED="1607971481197" STYLE="fork" TEXT="2.1.1 Scraper Module">
+<node CREATED="1607899676865" FOLDED="true" ID="ID_368724935" MODIFIED="1608297545103" STYLE="fork" TEXT="2.1.1 Scraper Module">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1607899826127" FOLDED="true" ID="ID_1568604599" MODIFIED="1608047661807">
+<node CREATED="1607899826127" ID="ID_1568604599" MODIFIED="1608297522092">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -301,7 +315,7 @@
 <node CREATED="1607899973394" ID="ID_1513380687" MODIFIED="1607954688380" TEXT="2.1.1.1.1 input: string bill_activity_subset: [&quot;all&quot;]"/>
 <node CREATED="1607899983889" ID="ID_181630327" MODIFIED="1607954688380" TEXT="2.1.1.1.2 output: dataframe containing bill name, number, description columns with data on [bill_activity_subset] bills"/>
 </node>
-<node CREATED="1607899855151" FOLDED="true" ID="ID_1388038472" MODIFIED="1608047662527">
+<node CREATED="1607899855151" ID="ID_1388038472" MODIFIED="1608297523037">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -341,7 +355,7 @@
 <node CREATED="1607900433281" ID="ID_1065983970" MODIFIED="1607954688381" TEXT="2.1.1.2.2.2 output: dataframe with date column, bill name column, description column"/>
 </node>
 </node>
-<node CREATED="1607899886609" FOLDED="true" ID="ID_177759924" MODIFIED="1608047663399">
+<node CREATED="1607899886609" ID="ID_177759924" MODIFIED="1608297524156">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -372,7 +386,7 @@
 <node CREATED="1607900917254" ID="ID_843364223" MODIFIED="1607954688381" TEXT="2.1.1.4.2 output: string containing constituency name"/>
 </node>
 </node>
-<node CREATED="1607899691793" FOLDED="true" ID="ID_873664570" MODIFIED="1607972146996" STYLE="fork" TEXT="2.1.2 Data Collection Script">
+<node CREATED="1607899691793" ID="ID_873664570" MODIFIED="1608297546220" STYLE="fork" TEXT="2.1.2 Data Collection Script">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1607901347225" ID="ID_1367051740" MODIFIED="1607971494957" TEXT="2.1.2.1 every 12 hours collect bill data">
@@ -394,7 +408,7 @@
 <node CREATED="1607902197165" ID="ID_1145220626" MODIFIED="1607972211553" STYLE="fork" TEXT="2.2 Client response script">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1607903686016" FOLDED="true" ID="ID_1175044371" MODIFIED="1607974259440" TEXT="2.2.1 Accounts data">
+<node CREATED="1607903686016" FOLDED="true" ID="ID_1175044371" MODIFIED="1608297944086" TEXT="2.2.1 Accounts data">
 <icon BUILTIN="full-2"/>
 <node CREATED="1607906861320" ID="ID_67788218" MODIFIED="1607954688382" TEXT="2.2.1.1 Sign Up data">
 <node CREATED="1607904001985" ID="ID_515822062" MODIFIED="1607954688382" TEXT="2.2.1.1.1 Respond to email sent by client">
@@ -421,7 +435,7 @@
 <node CREATED="1607908496655" ID="ID_1802316478" MODIFIED="1607954688383" TEXT="2.2.1.2.3 respond to add favourite request by client"/>
 </node>
 </node>
-<node CREATED="1607972221039" FOLDED="true" ID="ID_576795873" MODIFIED="1607974295504" TEXT="2.2.2 Bills data">
+<node CREATED="1607972221039" ID="ID_576795873" MODIFIED="1608297941453" TEXT="2.2.2 Bills data">
 <icon BUILTIN="full-1"/>
 <node CREATED="1607972287889" ID="ID_1265975546" MODIFIED="1607974284701" TEXT="2.2.2.1 On request for nth bill from all bills ordered by date, return nth bill"/>
 </node>
